@@ -39,6 +39,3 @@ log_generator.py <path/to/dir>
 | merge_by_memory| ? | 175.070014 sec |
 | merge_by_time  | ? | 121.021235 sec |
 | pythonic_merge  | ? | 71.886162 sec |
-
-merge_by_time
-pythonic_merge
