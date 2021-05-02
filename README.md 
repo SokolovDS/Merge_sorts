@@ -21,3 +21,24 @@ log_generator.py <path/to/dir>
 ```bash
 <your_script>.py <path/to/log1> <path/to/log2> -o <path/to/merged/log>
 ```
+
+Поличилось 3 варианта слияния отсортированных файлов
+
+64mb_files
+
+| Algorithm      | Memory           | Time  |
+| -------------  |:-------------:| -----:|
+|64mb_files |64mb_files|64mb_files|
+| merge_by_memory| 15.6 MiB | 10.115399 sec |
+| merge_by_time  | 244.6 MiB | 5.104569 sec |
+| pythonic_merge  | 15.6 MiB | 4.529216 sec |
+1024mb_files
+
+| Algorithm      | Memory           | Time  |
+| -------------  |:-------------:| -----:|
+| merge_by_memory| ? | 175.070014 sec |
+| merge_by_time  | ? | 121.021235 sec |
+| pythonic_merge  | ? | 71.886162 sec |
+
+merge_by_time
+pythonic_merge
