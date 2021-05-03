@@ -32,6 +32,7 @@ log_generator.py <path/to/dir>
 | merge_by_memory| 15.6 MiB | 10.115399 sec |
 | merge_by_time  | 244.6 MiB | 5.104569 sec |
 | pythonic_merge  | 15.6 MiB | 4.529216 sec |
+
 1024mb_files
 
 | Algorithm      | Memory           | Time  |
